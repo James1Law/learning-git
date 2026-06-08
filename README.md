@@ -11,14 +11,14 @@ I am using this repo to practise:
 - Initialising a Git repository
 - Creating and switching branches
 - Making changes to files
-- Staging changes with git add
-- Saving changes with git commit
-- Viewing history with git log
+- Staging changes with `git add`
+- Saving changes with `git commit`
+- Viewing history with `git log`
 - Pushing branches to GitHub
 - Creating pull requests
-- Merging changes into main
+- Merging changes into `main`
 - Tidying up branches after a pull request is merged
-- Using .gitignore to avoid committing unwanted files
+- Using `.gitignore` to avoid committing unwanted files
 - Building confidence with everyday terminal commands
 
 ## Current focus
@@ -30,41 +30,80 @@ Right now, I am focusing on two areas:
 
 ## Git commands I am practising
 
-bash git init git status git add . git commit -m "Describe the change" git log git checkout main git checkout -b branch-name git branch git branch -d branch-name git push -u origin branch-name git pull origin main 
+```bash
+git init
+git status
+git add .
+git commit -m "Describe the change"
+git log
+git checkout main
+git checkout -b branch-name
+git branch
+git branch -d branch-name
+git push -u origin branch-name
+git pull origin main
+```
 
 ## Terminal commands I am practising
 
-bash pwd ls cd mkdir touch cat echo cp mv rm clear open . code . 
+```bash
+pwd
+ls
+cd
+mkdir
+touch
+cat
+echo
+cp
+mv
+rm
+clear
+open .
+code .
+```
 
 ## Practice workflow
 
 A typical practice workflow in this repo is:
 
-bash git checkout main git pull origin main git checkout -b my-new-branch 
+```bash
+git checkout main
+git pull origin main
+git checkout -b my-new-branch
+```
 
 Then make a change to a file.
 
-bash git status git add . git commit -m "Describe what changed" git push -u origin my-new-branch 
+```bash
+git status
+git add .
+git commit -m "Describe what changed"
+git push -u origin my-new-branch
+```
 
-Then open GitHub, create a pull request, review the change, and merge it into main.
+Then open GitHub, create a pull request, review the change, and merge it into `main`.
 
 After merging:
 
-bash git checkout main git pull origin main git branch -d my-new-branch 
+```bash
+git checkout main
+git pull origin main
+git branch -d my-new-branch
+```
 
 ## Notes to self
 
-- main should stay clean and up to date.
+- `main` should stay clean and up to date.
 - New work should usually happen on a new branch.
 - Commit messages should explain what changed.
 - Pull requests are a GitHub feature, not a core Git command.
 - Empty folders are not tracked by Git.
-- .DS_Store is a macOS file and should be ignored.
-- .gitignore tells Git which files not to track.
+- `.DS_Store` is a macOS file and should be ignored.
+- `.gitignore` tells Git which files not to track.
 - Terminal commands are powerful, so check where I am before creating, moving, or deleting files.
-- pwd shows where I am.
-- ls shows what is in the current folder.
-- cd moves between folders.
+- `pwd` shows where I am.
+- `ls` shows what is in the current folder.
+- `cd` moves between folders.
 
 ## Why I am doing this
 
