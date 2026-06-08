@@ -1,8 +1,8 @@
-# Learning Git
+# Learning Git and Terminal Commands
 
-This repository is my personal practice space for learning Git, GitHub, and eventually general terminal commands.
+This repository is my personal practice space for learning Git, GitHub, and useful beginner terminal commands.
 
-The aim is not to build a production project. The aim is to practise the basic developer workflow in a safe place, make mistakes, fix them, and get comfortable using Git from the command line.
+The aim is not to build a production project. The aim is to practise the basic developer workflow in a safe place, make mistakes, fix them, and get comfortable using Git, GitHub, Cursor, and the command line.
 
 ## What this repo is for
 
@@ -23,21 +23,18 @@ I am using this repo to practise:
 
 ## Current focus
 
-Right now, I am focusing on the basics of Git:
+Right now, I am focusing on two areas:
 
-bash git init git status git add . git commit -m "Describe the change" git log git checkout main git checkout -b branch-name git push -u origin branch-name git pull origin main 
+1. Learning the basic Git and GitHub workflow
+2. Learning useful terminal commands for coding and local development
 
-## Future focus
+## Git commands I am practising
 
-Once I am more comfortable with Git, I may expand this repo to include notes and practice examples for general terminal usage, including:
+bash git init git status git add . git commit -m "Describe the change" git log git checkout main git checkout -b branch-name git branch git branch -d branch-name git push -u origin branch-name git pull origin main 
 
-- Creating files and folders
-- Moving around the file system
-- Reading and editing files
-- Understanding paths
-- Using common macOS terminal commands
-- Running local development projects
-- Understanding ports, local servers, and development environments
+## Terminal commands I am practising
+
+bash pwd ls cd mkdir touch cat echo cp mv rm clear open . code . 
 
 ## Practice workflow
 
@@ -64,7 +61,13 @@ bash git checkout main git pull origin main git branch -d my-new-branch
 - Empty folders are not tracked by Git.
 - .DS_Store is a macOS file and should be ignored.
 - .gitignore tells Git which files not to track.
+- Terminal commands are powerful, so check where I am before creating, moving, or deleting files.
+- pwd shows where I am.
+- ls shows what is in the current folder.
+- cd moves between folders.
 
 ## Why I am doing this
 
-I am learning Git properly so I can better understand developer workflows, work more confidently with code projects, and use tools like Cursor, GitHub, and the terminal without blindly relying on copy-pasted commands.
+I am learning Git and terminal basics properly so I can better understand developer workflows, work more confidently with code projects, and use tools like Cursor, GitHub, and the terminal without blindly relying on copy-pasted commands.
+
+This repo is my safe place to practise that workflow repeatedly until it becomes second nature.
